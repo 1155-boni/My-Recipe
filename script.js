@@ -417,11 +417,7 @@ function displayData(data) {
                 <div class="recipe-ingredients">
                     <h3>Ingredients:</h3>
                     <ul>
-                        ${meal.strIngredient1 ? `<li>${meal.strIngredient1} - ${meal.strMeasure1}</li>` : ''}
-                        ${meal.strIngredient2 ? `<li>${meal.strIngredient2} - ${meal.strMeasure2}</li>` : ''}
-                        ${meal.strIngredient3 ? `<li>${meal.strIngredient3} - ${meal.strMeasure3}</li>` : ''}
-                        ${meal.strIngredient4 ? `<li>${meal.strIngredient4} - ${meal.strMeasure4}</li>` : ''}
-                        ${meal.strIngredient5 ? `<li>${meal.strIngredient5} - ${meal.strMeasure5}</li>` : ''}
+                      
                     </ul>
                 </div>
                 <div class="recipe-instructions">
